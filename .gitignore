@@ -1,0 +1,47 @@
+# 忽略编译输出
+build/
+dist/
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# 忽略日志文件
+*.log
+
+# 忽略虚拟环境
+venv/
+
+# 忽略临时文件
+*.swp
+*.tmp
+*.bak
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略checkpoint文件夹
+checkpoints/
+dataset/
+Garbage-Classification/
+wandb/
+validation_pic/
+
+# 忽略文件
+cnt.py
+dataset_mini.py
+
+idea.md
+label_mapping.json
+model_resnet_cosine_dropout.py
+model_resnet_small_dataset.py
+model_resnet_nv.py
+
+run.sh
+
+train_and_test_svm_model.py
